@@ -13,6 +13,14 @@ function App() {
     document.title = "Study Buddy - Platform EduTech";
   }, []);
 
+  // 2. TAMBAHKAN BLOK useEffect DI SINI
+  // Hook ini akan berjalan setelah komponen App selesai di-render pertama kali.
+  useEffect(() => {
+    // Ini adalah 'side effect': mengubah judul tab browser
+    document.title = "Study Buddy - Platform EduTech";
+  }, []); // <-- Array dependensi kosong berarti efek ini hanya berjalan satu kali.
+
+
   // --- DATA UNTUK CARD ---
   // Kita ubah data card menjadi array of objects agar mudah dikelola
   const packagesData = [

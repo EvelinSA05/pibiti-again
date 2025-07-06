@@ -45,8 +45,8 @@ function Header(props) {
             </div>
             <div className="mx-auto items-start -mt-20 max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <h2 className="text-5xl font-semibold tracking-tight text-shadow-red-800 sm:text-7xl">{title1}</h2>
-                    <p className="mt-8 text-lg font-medium text-pretty text-shadow-red-600 sm:text-xl/8">
+                    <h2 className="text-5xl font-semibold tracking-tight !text-red-800 sm:text-7xl">{title1}</h2>
+                    <p className="mt-8 text-lg font-medium text-pretty !text-pink-700 sm:text-xl/8">
                         {title2}
                     </p>
                 </div>
